@@ -5,4 +5,11 @@ fun main() {
   demoClass()
   demoGeneric()
   demoInheritance()
+
+  // Control flow
+  demoWhen()
+  demoLoops()
+  demoRanges()
+  demoEqualityChecks()
+  demoConditionalExpression()
 }
