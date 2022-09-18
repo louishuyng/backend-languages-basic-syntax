@@ -12,4 +12,10 @@ fun main() {
   demoRanges()
   demoEqualityChecks()
   demoConditionalExpression()
+
+  // Special Classes
+  demoDataClasses()
+  demoEnumClasses()
+  demoSealedClasses()
+  demoObject()
 }
