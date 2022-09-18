@@ -53,4 +53,5 @@ fun demoObject() {
   DoAuth.takeParams("louis", "123456")
 
   BigGen.getBongs(12)
+  println()
 }

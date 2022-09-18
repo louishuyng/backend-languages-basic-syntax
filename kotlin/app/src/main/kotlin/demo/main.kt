@@ -18,4 +18,9 @@ fun main() {
   demoEnumClasses()
   demoSealedClasses()
   demoObject()
+
+  // Functional
+  demoHighOrderFunction()
+  demoLambda()
+  demoExtensionFunctions()
 }
