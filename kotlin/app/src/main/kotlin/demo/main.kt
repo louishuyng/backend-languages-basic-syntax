@@ -23,4 +23,23 @@ fun main() {
   demoHighOrderFunction()
   demoLambda()
   demoExtensionFunctions()
+
+  // Collections
+  demoList()
+  demoSet()
+  demoMap()
+  demoFilter()
+  demoMapTransformation()
+  demoExistenceCheck()
+  demoFind()
+  demoFirstLast()
+  demoCount()
+  demoAssociateGroupBy()
+  demoPartition()
+  demoFlat()
+  demoMinMaxOrNull()
+  demoSorted()
+  demoMapElementAccess()
+  demoZip()
+  demoGetOrElse()
 }
