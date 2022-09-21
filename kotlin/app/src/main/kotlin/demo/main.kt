@@ -42,4 +42,11 @@ fun main() {
   demoMapElementAccess()
   demoZip()
   demoGetOrElse()
+
+  // Scope Functions
+  demoLet()
+  demoRun()
+  demoWith()
+  demoApply()
+  demoAlso()
 }
