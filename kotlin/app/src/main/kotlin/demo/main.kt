@@ -53,4 +53,10 @@ fun main() {
   // Delegation
   demoDelegationPattern()
   demoDelagedProperties()
+
+  // Productivity Boosters
+  demoNamedArguments()
+  demoStringTemplate()
+  demoDestructingDeclarations()
+  demoSmartCasts()
 }
