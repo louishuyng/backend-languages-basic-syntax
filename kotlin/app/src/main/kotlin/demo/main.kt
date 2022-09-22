@@ -49,4 +49,8 @@ fun main() {
   demoWith()
   demoApply()
   demoAlso()
+
+  // Delegation
+  demoDelegationPattern()
+  demoDelagedProperties()
 }
