@@ -6,5 +6,5 @@ import (
 )
 
 func Packages() {
-	fmt.Printf("Run Test Packages With Math: %g \n", math.Sqrt(7))
+	fmt.Printf("Test Packages With Math Function: %g \n", math.Sqrt(7))
 }

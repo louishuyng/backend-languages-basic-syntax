@@ -10,4 +10,6 @@ func main() {
 
 	test.Packages()
 	test.Functions()
+	test.NameReturnValues()
+	test.Variables()
 }
