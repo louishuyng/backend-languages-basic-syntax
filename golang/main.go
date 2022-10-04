@@ -13,4 +13,5 @@ func main() {
 	test.NameReturnValues()
 	test.Variables()
 	test.ShortVariableDeclarations()
+	test.BasicTypes()
 }
