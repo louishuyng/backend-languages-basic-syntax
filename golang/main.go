@@ -14,4 +14,5 @@ func main() {
 	test.Variables()
 	test.ShortVariableDeclarations()
 	test.BasicTypes()
+	test.ZeroValues()
 }
