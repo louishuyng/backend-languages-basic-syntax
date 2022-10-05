@@ -21,4 +21,5 @@ func main() {
 	test.NumericConstants()
 	test.For()
 	test.If()
+	test.Switch()
 }
