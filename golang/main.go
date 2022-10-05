@@ -1,27 +1,29 @@
 package main
 
 import (
-	"BackendGolang/test"
+	basic "BackendGolang/test/basic"
+	flow_controls "BackendGolang/test/flow_controls"
 	"fmt"
 )
 
 func main() {
 	fmt.Println("Welcome to the playgrond!")
 
-	test.Packages()
-	test.Functions()
-	test.NameReturnValues()
-	test.Variables()
-	test.ShortVariableDeclarations()
-	test.BasicTypes()
-	test.ZeroValues()
-	test.TypeConversions()
-	test.Constants()
-	test.Constants()
-	test.NumericConstants()
-	test.For()
-	test.If()
-	test.Switch()
-	test.Defer()
-	test.StackingDefer()
+	basic.Packages()
+	basic.Functions()
+	basic.NameReturnValues()
+	basic.Variables()
+	basic.ShortVariableDeclarations()
+	basic.BasicTypes()
+	basic.ZeroValues()
+	basic.TypeConversions()
+	basic.Constants()
+	basic.Constants()
+	basic.NumericConstants()
+
+	flow_controls.For()
+	flow_controls.If()
+	flow_controls.Switch()
+	flow_controls.Defer()
+	flow_controls.StackingDefer()
 }
