@@ -22,4 +22,5 @@ func main() {
 	test.For()
 	test.If()
 	test.Switch()
+	test.Defer()
 }
