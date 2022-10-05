@@ -16,4 +16,5 @@ func main() {
 	test.BasicTypes()
 	test.ZeroValues()
 	test.TypeConversions()
+	test.Constants()
 }

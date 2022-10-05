@@ -13,5 +13,5 @@ func TypeConversions() {
 	var z uint = uint(f)
 
 	fmt.Println("Test Type conversions")
-	fmt.Printf("  %v %v %v", x, y, z)
+	fmt.Printf("  %v %v %v\n", x, y, z)
 }
