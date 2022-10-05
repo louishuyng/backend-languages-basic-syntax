@@ -23,4 +23,5 @@ func main() {
 	test.If()
 	test.Switch()
 	test.Defer()
+	test.StackingDefer()
 }
