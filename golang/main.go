@@ -29,4 +29,5 @@ func main() {
 	flow_controls.StackingDefer()
 
 	more_types.Pointers()
+	more_types.Struct()
 }
