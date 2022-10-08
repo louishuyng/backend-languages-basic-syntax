@@ -1,4 +1,4 @@
-package test
+package demo
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ var (
 )
 
 func BasicTypes() {
-	fmt.Println("Test Basic Types")
+	fmt.Println("Demo Basic Types")
 	fmt.Printf("  Type: %T Value: %v\n", ToBe, ToBe)
 	fmt.Printf("  Type: %T Value: %v\n", MaxInt, MaxInt)
 	fmt.Printf("  Type: %T Value: %v\n", z, z)

@@ -1,4 +1,4 @@
-package test
+package demo
 
 import (
 	"fmt"
@@ -17,8 +17,8 @@ func swap(x, y string) (string, string) {
 }
 
 func Functions() {
-	fmt.Printf("Test Add Function 42 + 13 = %d \n", add(42, 13))
-	fmt.Printf("Test Minus Function 42 - 13 = %d \n", minus(42, 13))
-	fmt.Print("Test Swap Function a, b => ")
+	fmt.Printf("Demo Add Function 42 + 13 = %d \n", add(42, 13))
+	fmt.Printf("Demo Minus Function 42 - 13 = %d \n", minus(42, 13))
+	fmt.Print("Demo Swap Function a, b => ")
 	fmt.Println(swap("a", "b"))
 }

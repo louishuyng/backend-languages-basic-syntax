@@ -1,4 +1,4 @@
-package test
+package demo
 
 import "fmt"
 
@@ -8,7 +8,7 @@ type Vertex struct {
 }
 
 func Struct() {
-	fmt.Println("Test Struct")
+	fmt.Println("Demo Struct")
 
 	v := Vertex{1, 2}
 
@@ -16,17 +16,17 @@ func Struct() {
 
 	v.X = 4
 
-	fmt.Println("Test Fields")
+	fmt.Println("Demo Fields")
 	fmt.Printf("  v.X=%v\n", v.X)
 
-	fmt.Println("Test Pointers to structs")
+	fmt.Println("Demo Pointers to structs")
 	p := &v
 	p.X = 1e9
 	(*p).Y = 1e8
 
 	fmt.Printf("  v=%v", v)
 
-	fmt.Println("Test Struct Literals")
+	fmt.Println("Demo Struct Literals")
 
 	var v1 Vertex = Vertex{1, 2}
 	var v2 = Vertex{X: 1}

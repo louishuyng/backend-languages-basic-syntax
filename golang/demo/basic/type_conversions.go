@@ -1,4 +1,4 @@
-package test
+package demo
 
 import (
 	"fmt"
@@ -12,6 +12,6 @@ func TypeConversions() {
 
 	var z uint = uint(f)
 
-	fmt.Println("Test Type conversions")
+	fmt.Println("Demo Type conversions")
 	fmt.Printf("  %v %v %v\n", x, y, z)
 }

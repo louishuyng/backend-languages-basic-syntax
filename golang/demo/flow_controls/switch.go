@@ -1,4 +1,4 @@
-package test
+package demo
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 )
 
 func Switch() {
-	fmt.Println("Test Switch")
+	fmt.Println("Demo Switch")
 
 	switch os := runtime.GOOS; os {
 	case "darwin":
@@ -17,7 +17,7 @@ func Switch() {
 	default:
 		fmt.Printf("  %s.\n", os)
 	}
-	fmt.Println("Test Switch evaluation order")
+	fmt.Println("Demo Switch evaluation order")
 	fmt.Println("  When's Saturday?")
 
 	today := time.Now().Weekday()
@@ -33,7 +33,7 @@ func Switch() {
 		fmt.Println("  Too far away.")
 	}
 
-	fmt.Println("Test Switch no condition")
+	fmt.Println("Demo Switch no condition")
 
 	t := time.Now()
 

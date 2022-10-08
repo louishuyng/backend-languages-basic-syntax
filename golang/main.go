@@ -1,10 +1,10 @@
 package main
 
 import (
-	basic "BackendGolang/test/basic"
-	flow_controls "BackendGolang/test/flow_controls"
-	mai "BackendGolang/test/methods_and_interfaces"
-	more_types "BackendGolang/test/more_types"
+	basic "BackendGolang/demo/basic"
+	flow_controls "BackendGolang/demo/flow_controls"
+	mai "BackendGolang/demo/methods_and_interfaces"
+	more_types "BackendGolang/demo/more_types"
 	"fmt"
 )
 

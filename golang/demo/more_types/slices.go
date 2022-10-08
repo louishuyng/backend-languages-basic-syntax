@@ -1,4 +1,4 @@
-package test
+package demo
 
 import (
 	"fmt"
@@ -15,7 +15,7 @@ func printSliceInfo(s string, x []int) {
 }
 
 func Slices() {
-	fmt.Println("Test Slices")
+	fmt.Println("Demo Slices")
 
 	primies := [6]int{2, 3, 5, 7, 11, 13}
 
@@ -23,7 +23,7 @@ func Slices() {
 
 	fmt.Printf("  s=%v\n", s)
 
-	fmt.Println("Test Slices reference to array")
+	fmt.Println("Demo Slices reference to array")
 
 	names := [4]string{
 		"John",
@@ -43,7 +43,7 @@ func Slices() {
 	fmt.Printf("  b=%v \n", b)
 	fmt.Printf("  names=%v\n", names)
 
-	fmt.Println("Test Slices literals")
+	fmt.Println("Demo Slices literals")
 	q := []int{2, 3, 5, 7, 11, 13}
 	fmt.Printf("  q=%v\n", q)
 
@@ -58,7 +58,7 @@ func Slices() {
 
 	fmt.Printf("  h=%v\n", h)
 
-	fmt.Println("Test Slices defaults")
+	fmt.Println("Demo Slices defaults")
 	k := []int{2, 3, 5, 7, 11, 13}
 
 	k = k[1:4]
@@ -70,7 +70,7 @@ func Slices() {
 	k = k[1:]
 	fmt.Printf("  k=%v\n", k)
 
-	fmt.Println("Test Slices length and capacity")
+	fmt.Println("Demo Slices length and capacity")
 	k = []int{2, 3, 5, 7, 11, 13}
 	printSlice(k)
 	// Slice the slice to give it zero length.
@@ -85,14 +85,14 @@ func Slices() {
 	k = k[2:]
 	printSlice(k)
 
-	fmt.Println("Test Nil slices")
+	fmt.Println("Demo Nil slices")
 	var t []int
 	printSlice(t)
 	if t == nil {
 		fmt.Println("  t slice is nil!")
 	}
 
-	fmt.Println("Test Creating a slice with make")
+	fmt.Println("Demo Creating a slice with make")
 	p := make([]int, 5)
 	printSliceInfo("p", p)
 
@@ -105,7 +105,7 @@ func Slices() {
 	d := c[2:5]
 	printSliceInfo("d", d)
 
-	fmt.Println("Test Slices of slices")
+	fmt.Println("Demo Slices of slices")
 	// Create a tic-tac-toe board.
 	board := [][]string{
 		{"_", "_", "_"},
@@ -124,7 +124,7 @@ func Slices() {
 		fmt.Printf("  %s\n", strings.Join(board[i], " "))
 	}
 
-	fmt.Println("Test Appending to a slice")
+	fmt.Println("Demo Appending to a slice")
 	var n []int
 	printSlice(n)
 

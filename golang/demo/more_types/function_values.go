@@ -1,4 +1,4 @@
-package test
+package demo
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ func compute(fn func(float64, float64) float64) float64 {
 }
 
 func FunctionValues() {
-	fmt.Println("Test Function Values")
+	fmt.Println("Demo Function Values")
 
 	hypot := func(x, y float64) float64 {
 		return math.Sqrt(x*x + y*y)

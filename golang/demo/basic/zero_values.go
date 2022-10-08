@@ -1,4 +1,4 @@
-package test
+package demo
 
 import "fmt"
 
@@ -8,6 +8,6 @@ func ZeroValues() {
 	var b bool
 	var s string
 
-	fmt.Println("Test Zero Values")
+	fmt.Println("Demo Zero Values")
 	fmt.Printf("  %v %v %v %q\n", i, f, b, s)
 }

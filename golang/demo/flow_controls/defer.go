@@ -1,10 +1,10 @@
-package test
+package demo
 
 import "fmt"
 
 func Defer() {
 	defer fmt.Print(" world\n")
 
-	fmt.Println("Test Defer")
+	fmt.Println("Demo Defer")
 	fmt.Print("  Hello")
 }

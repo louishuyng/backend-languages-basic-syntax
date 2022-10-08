@@ -1,4 +1,4 @@
-package test
+package demo
 
 import (
 	"fmt"
@@ -23,11 +23,11 @@ func (f MyFloat) Abs() float64 {
 }
 
 func Methods() {
-	fmt.Println("Test Methods")
+	fmt.Println("Demo Methods")
 	v := Vertex{3, 4}
 	fmt.Printf("  v.Abs()=%v\n", v.Abs())
 
-	fmt.Println("Test Methods Are Just a Function")
+	fmt.Println("Demo Methods Are Just a Function")
 
 	abs := func(v Vertex) float64 {
 		return math.Sqrt(v.X*v.X + v.Y*v.Y)
@@ -35,7 +35,7 @@ func Methods() {
 
 	fmt.Printf("  abs(v)=%v\n", abs(v))
 
-	fmt.Println("Test Methods on non-struct type")
+	fmt.Println("Demo Methods on non-struct type")
 
 	f := MyFloat(-math.Sqrt2)
 	fmt.Printf("  f.Abs()=%v\n", f.Abs())

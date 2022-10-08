@@ -1,9 +1,9 @@
-package test
+package demo
 
 import "fmt"
 
 func StackingDefer() {
-	fmt.Println("Test Stacking Defer")
+	fmt.Println("Demo Stacking Defer")
 
 	fmt.Println("  counting")
 

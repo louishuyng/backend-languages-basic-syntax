@@ -1,4 +1,4 @@
-package test
+package demo
 
 import (
 	"fmt"
@@ -24,8 +24,8 @@ func pow(x, n, lim float64) float64 {
 }
 
 func If() {
-	fmt.Println("Test If")
+	fmt.Println("Demo If")
 	fmt.Printf("  sqrt(2)=%v sqrt(-4)=%v\n", sqrt(2), sqrt(-4))
-	fmt.Println("Test If with a short statement")
+	fmt.Println("Demo If with a short statement")
 	fmt.Printf("  pow(3, 2, 10)=%v pow(3, 3, 20)=%v\n", pow(3, 2, 10), pow(3, 3, 20))
 }

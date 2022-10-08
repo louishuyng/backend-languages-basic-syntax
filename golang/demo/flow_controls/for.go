@@ -1,9 +1,9 @@
-package test
+package demo
 
 import "fmt"
 
 func For() {
-	fmt.Println("Test For")
+	fmt.Println("Demo For")
 	sum := 0
 
 	for i := 0; i < 10; i++ {
@@ -12,7 +12,7 @@ func For() {
 
 	fmt.Printf("  sum=%v\n", sum)
 
-	fmt.Println("Test For continued")
+	fmt.Println("Demo For continued")
 
 	sum = 1
 

@@ -1,9 +1,9 @@
-package test
+package demo
 
 import "fmt"
 
 func FunctionClosures() {
-	fmt.Println("Test Function Closures")
+	fmt.Println("Demo Function Closures")
 	adder := func() func(int) int {
 		sum := 0
 

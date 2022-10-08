@@ -1,4 +1,4 @@
-package test
+package demo
 
 import "fmt"
 
@@ -7,7 +7,7 @@ func Maps() {
 		Lat, Long float64
 	}
 
-	fmt.Println("Test Maps")
+	fmt.Println("Demo Maps")
 
 	var m map[string]Vertex
 
@@ -18,7 +18,7 @@ func Maps() {
 
 	fmt.Printf("  %v\n", m["Bell Labs"])
 
-	fmt.Println("Test Maps literals")
+	fmt.Println("Demo Maps literals")
 
 	m = map[string]Vertex{
 		"Bell Labs": {
@@ -31,7 +31,7 @@ func Maps() {
 
 	fmt.Printf("  %v\n", m)
 
-	fmt.Println("Test Mutating Maps")
+	fmt.Println("Demo Mutating Maps")
 
 	h := make(map[string]int)
 

@@ -1,9 +1,9 @@
-package test
+package demo
 
 import "fmt"
 
 func Pointers() {
-	fmt.Println("Test Pointers")
+	fmt.Println("Demo Pointers")
 
 	i, j := 42, 2701
 

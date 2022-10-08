@@ -1,4 +1,4 @@
-package test
+package demo
 
 import "fmt"
 
@@ -9,6 +9,6 @@ func split(sum int) (x, y int) {
 }
 
 func NameReturnValues() {
-	fmt.Print("Test named return values split 7 => ")
+	fmt.Print("Demo named return values split 7 => ")
 	fmt.Println(split(7))
 }

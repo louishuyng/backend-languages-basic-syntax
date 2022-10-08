@@ -1,9 +1,9 @@
-package test
+package demo
 
 import "fmt"
 
 func Arrays() {
-	fmt.Println("Test Arrays")
+	fmt.Println("Demo Arrays")
 
 	var a [2]string
 	a[0] = "Hello"

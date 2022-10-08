@@ -1,16 +1,16 @@
-package test
+package demo
 
 import "fmt"
 
 func Range() {
 	var pow = []int{1, 2, 4, 8, 16, 32, 64, 18}
 
-	fmt.Println("Test Range")
+	fmt.Println("Demo Range")
 	for i, v := range pow {
 		fmt.Printf("  2**%d = %d\n", i, v)
 	}
 
-	fmt.Println("Test Range omit value or index")
+	fmt.Println("Demo Range omit value or index")
 	pow = make([]int, 10)
 
 	for i := range pow {
