@@ -35,4 +35,5 @@ func main() {
 	more_types.Range()
 	more_types.Maps()
 	more_types.FunctionValues()
+	more_types.FunctionClosures()
 }
