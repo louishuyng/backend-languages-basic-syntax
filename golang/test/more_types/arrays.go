@@ -13,5 +13,5 @@ func Arrays() {
 
 	primies := [6]int{2, 3, 5, 7, 11, 13}
 
-	fmt.Printf("  primies= %v\n", primies)
+	fmt.Printf("  primies=%v\n", primies)
 }

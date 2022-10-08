@@ -31,4 +31,5 @@ func main() {
 	more_types.Pointers()
 	more_types.Struct()
 	more_types.Arrays()
+	more_types.Slices()
 }
