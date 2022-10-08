@@ -32,4 +32,5 @@ func main() {
 	more_types.Struct()
 	more_types.Arrays()
 	more_types.Slices()
+	more_types.Range()
 }
