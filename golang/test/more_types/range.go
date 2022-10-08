@@ -10,7 +10,7 @@ func Range() {
 		fmt.Printf("  2**%d = %d\n", i, v)
 	}
 
-	fmt.Println("Test Range continued")
+	fmt.Println("Test Range omit value or index")
 	pow = make([]int, 10)
 
 	for i := range pow {
