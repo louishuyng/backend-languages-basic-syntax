@@ -34,4 +34,5 @@ func main() {
 	more_types.Slices()
 	more_types.Range()
 	more_types.Maps()
+	more_types.FunctionValues()
 }
