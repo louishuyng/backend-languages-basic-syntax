@@ -3,6 +3,7 @@ package main
 import (
 	basic "BackendGolang/test/basic"
 	flow_controls "BackendGolang/test/flow_controls"
+	mai "BackendGolang/test/methods_and_interfaces"
 	more_types "BackendGolang/test/more_types"
 	"fmt"
 )
@@ -36,4 +37,6 @@ func main() {
 	more_types.Maps()
 	more_types.FunctionValues()
 	more_types.FunctionClosures()
+
+	mai.Methods()
 }
