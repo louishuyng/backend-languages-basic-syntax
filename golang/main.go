@@ -39,4 +39,5 @@ func main() {
 	more_types.FunctionClosures()
 
 	mai.Methods()
+	mai.PointerReceiver()
 }
