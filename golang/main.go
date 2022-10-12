@@ -41,4 +41,5 @@ func main() {
 	mai.Methods()
 	mai.PointerReceiver()
 	mai.Interfaces()
+	mai.InterfaceValues()
 }

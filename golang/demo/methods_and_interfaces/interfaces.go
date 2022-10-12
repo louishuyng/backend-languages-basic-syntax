@@ -19,7 +19,11 @@ type T struct {
 
 // This method means type T implements the interface I,
 // but we don't need to explicitly declare that it does so.
-func (t T) M() {
+func (t *T) M() {
+	if t == nil {
+		fmt.Println("  <nil>")
+		return
+	}
 	fmt.Println(" ", t.S)
 }
 
@@ -40,7 +44,7 @@ func Interfaces() {
 
 	fmt.Printf("  a.Abs()=%v\n", a.Abs())
 
-	fmt.Println("Demo Interfaces are implemented implicitly")
-	var i I = T{"hello"}
+	fmt.Println("Demo Interfaces implicitly")
+	var i I = &T{"hello"}
 	i.M()
 }
