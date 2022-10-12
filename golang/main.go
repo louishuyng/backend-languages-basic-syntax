@@ -42,4 +42,5 @@ func main() {
 	mai.PointerReceiver()
 	mai.Interfaces()
 	mai.InterfaceValues()
+	mai.EmptyInterface()
 }
