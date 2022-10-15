@@ -44,4 +44,5 @@ func main() {
 	mai.InterfaceValues()
 	mai.EmptyInterface()
 	mai.TypeAssertions()
+	mai.TypeSwitches()
 }
