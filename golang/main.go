@@ -45,4 +45,5 @@ func main() {
 	mai.EmptyInterface()
 	mai.TypeAssertions()
 	mai.TypeSwitches()
+	mai.Stringers()
 }
