@@ -46,4 +46,5 @@ func main() {
 	mai.TypeAssertions()
 	mai.TypeSwitches()
 	mai.Stringers()
+	mai.Errors()
 }
